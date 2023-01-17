@@ -1,1 +1,24 @@
 ** This file would hold some necessary design information **
+
+** PROJECT RESPONSIBILITIES **
+1. Roland Umoh - Home Page, Get Involved Page, Header and Footer + responsiveness
+2. Dominion - About Us, Contact Us Pages + responsiveness
+3. Dauda Yusuf - What We Do Page + responsiveness
+
+** Important Details to Watch out for **
+1. Same image used in the different pages. Please Note: All the images of the different pages have been put in their seperate folders. 
+2. Link to template https://ninetheme.com/themes/html-templates/agrikon/index.html
+
+** Colors **
+primary color > #398c2b(header, buttons)
+secondary colors;
+1. #dd3333 (section1(homepage) color, buttons, hover color)
+2. #222d3f (footer)
+3. #ffffff (section39(homepage) color)
+4. #dd3333 (support us button(header))
+5. #d0dce0 (section2(hompage) color)
+
+NB:You can add and suggest color combinations that will work with our design
+Remember to keep your branches up to date
+Remember to always update Important info in this .txt file
+
