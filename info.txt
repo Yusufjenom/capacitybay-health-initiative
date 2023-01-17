@@ -19,4 +19,6 @@ secondary colors;
 5. #d0dce0 (section2(hompage) color)
 
 NB:You can add and suggest color combinations that will work with our design
+Remember to keep your branches up to date
+Remember to always update Important info in this .txt file
 
