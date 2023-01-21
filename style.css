@@ -10,7 +10,109 @@
 :root{
     --color-primary: black;
 }
-
-h1{
-    color: var(--color-primary);
+/* WHAT WE DO */
+/* start of action to improve health latency */
+.container-body{
+    width: 100vw;
+    height: 100vh;
 }
+
+.title-block{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(10, 83, 10);
+}
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+.headinggg{
+    color: #fff;
+    animation: slideInLeft 1s ease-in 1s 2 normal none;
+}
+
+
+
+.body-o{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "paragraph imagee1 "
+    "paragraph support-box";
+    grid-gap: 10px;
+}
+.paragraph{
+    padding: 20px;
+    /* background: url("./images/WhatWeDo/health-literacy.jpg"); */
+    grid-area: paragraph;
+}
+ul, ol{
+    margin-left: 18px;
+}
+.imagee1{
+    padding: 20px;
+    grid-area: imagee1;
+}
+.support-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    grid-area: support-box;
+    width: 700px;
+    height: 250px;
+    background-color: rgb(151, 145, 145);
+    position: relative; 
+    border-radius: 5px;
+}
+.support-box a{
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(121, 50, 50);
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    left: 285px;
+    cursor: pointer;
+    transition: transform 0.3s ease 0s;
+}
+.support-box a:hover{
+    opacity: 0.4;
+    background-color: #fff;
+    color: rgb(121, 50, 50);
+    transform: translateY(-10px);
+}
+.support-box h2{
+    margin-top: 0;
+    margin-left: 210px;
+    color: rgb(121, 50, 50);
+    justify-self: flex-start;
+}
+
+/* mobile view */
+@media only screen and (max-width:550px){
+    .body-o{
+        margin: 5px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: " imagee1 "
+        "paragraph" 
+        "support-box";
+        grid-gap: 10px;
+    }
+    
+}
+
+/* end of action to improve health latency */
